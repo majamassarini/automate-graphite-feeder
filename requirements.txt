@@ -1,0 +1,1 @@
+git+git://github.com/majamassarini/automate-home.git

@@ -21,7 +21,7 @@ class Handler(Graph, metaclass=Registry):
     def __init__(self, home_resources, appliance, from_number=None, from_unit=None):
         self._home_resources = home_resources
         self._appliance = appliance
-        self._num_of_events = len(appliance.state.events)
+        self._num_of_events = len(appliance.state.events) + 1  # plus the appliance state itself
         self._logger = logging.getLogger(__name__)
         self._from_number = from_number
         self._from_unit = from_unit

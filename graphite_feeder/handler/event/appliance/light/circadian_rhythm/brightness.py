@@ -6,4 +6,4 @@ from graphite_feeder.handler.event.appliance.light.brightness import Handler as 
 class Handler(Parent):
 
     KLASS = home.appliance.light.event.circadian_rhythm.brightness.Event
-    LABEL = "Circadian rhythm brightness (%)"
+    TITLE = "Circadian rhythm brightness (%)"

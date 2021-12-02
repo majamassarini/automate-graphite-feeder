@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/majamassarini/automate-graphite.svg?branch=master)](https://travis-ci.com/majamassarini/automate-graphite)
+## automate-home graphite integration
 
-## 'Automate your home' graphite integration
-
-A simple way to enrich with graphics the web interface for *automate your home* projects.
+A simple way to enrich with graphics the web interface for the [automate-home project](https://github.com/majamassarini/automate-home).

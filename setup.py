@@ -4,9 +4,11 @@ with open(path.join(".", 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name="automate-graphite-feeder",
-      version="0.9.0",
+      version="0.9.1",
       description="A simple way to enrich with graphics the web interface for the automate-home projects",
-      long_description="",
+      url="https://github.com/majamassarini/automate-home",
+      long_description=long_description,
+      long_description_content_type='text/markdown',
       author="Maja Massarini",
       author_email="maja.massarini@gmail.com",
       license="MIT",
